@@ -19,7 +19,7 @@ Verify Landing Page
     # Wait And Click Element On Android    xpath=(//android.widget.LinearLayout/android.widget.ImageView)[2] #for Send SMS func
     Wait Until Page Contains Element    xpath=//android.widget.TextView[@text="Continue"]  timeout=50
     Wait And Click Element On Android    xpath=//android.widget.TextView[@text="Continue"]
-    Wait Until Page Contains Element    xpath=//android.widget.TextView@[text="Recent transactions"]
+    Wait Until Page Contains Element    xpath=//android.widget.TextView[@text="Recent transactions"]   timeout=250
     Capture Page Screenshot    Home.png
 
 
